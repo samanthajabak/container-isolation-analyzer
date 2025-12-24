@@ -1,0 +1,9 @@
+services:
+  safe-container:
+    image: unprivileged-container
+    container_name: safe-container
+    volumes:
+      - ../scripts:/scripts:ro
+    tty: true
+    stdin_open: true
+    command: ["/bin/bash", "-lc", "/scripts/run_analysis.sh"]
