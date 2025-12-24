@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python (just in case)
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+
+# Kubernetes temp files
+*.tmp
+
+# Environment variables
+.env
